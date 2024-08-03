@@ -1,0 +1,23 @@
+.elementor-511 .elementor-element.elementor-element-caa25be{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;}.elementor-511 .elementor-element.elementor-element-02c9fb0{text-align:center;color:#000000;font-family:"Open Sans", Sans-serif;font-size:41px;font-weight:700;}.elementor-511 .elementor-element.elementor-element-02c9fb0 > .elementor-widget-container{margin:101px 172px 0px 172px;}.elementor-511 .elementor-element.elementor-element-fd4007b{text-align:center;color:#000000;font-family:"Open Sans", Sans-serif;font-size:41px;font-weight:600;}.elementor-511 .elementor-element.elementor-element-fd4007b > .elementor-widget-container{margin:101px 172px 0px 172px;}.elementor-511 .elementor-element.elementor-element-6a09e72{text-align:center;color:#000000;font-family:"Open Sans", Sans-serif;font-size:54px;font-weight:700;}.elementor-511 .elementor-element.elementor-element-6a09e72 > .elementor-widget-container{margin:0px 172px 0px 172px;}.elementor-511 .elementor-element.elementor-element-593940d .elementor-button{font-family:"Open Sans", Sans-serif;font-size:25px;font-weight:700;text-shadow:0px 0px 10px rgba(0,0,0,0.3);fill:#FFFFFF;color:#FFFFFF;background-color:transparent;background-image:linear-gradient(180deg, #00F321 0%, #00CE45 100%);border-radius:8px 8px 8px 8px;box-shadow:2px 2px 10px 4px rgba(43.79347826086957, 255, 92.46280718336489, 0.5);}@media(max-width:767px){.elementor-511 .elementor-element.elementor-element-02c9fb0{font-size:38px;line-height:1em;}.elementor-511 .elementor-element.elementor-element-02c9fb0 > .elementor-widget-container{margin:165px 15px 0px 15px;}.elementor-511 .elementor-element.elementor-element-fd4007b{font-size:21px;line-height:1em;}.elementor-511 .elementor-element.elementor-element-fd4007b > .elementor-widget-container{margin:-24px 15px 0px 15px;}.elementor-511 .elementor-element.elementor-element-6a09e72{font-size:30px;line-height:1em;}.elementor-511 .elementor-element.elementor-element-6a09e72 > .elementor-widget-container{margin:-6px 15px 0px 15px;}.elementor-511 .elementor-element.elementor-element-593940d .elementor-button{font-size:18px;}}/* Start custom CSS */.pulse {
+	animation: pulse 0.7s infinite;
+	margin: 0 auto;
+	display: table;
+	margin-top: 0px;
+	animation-direction: alternate;
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+	0% {
+	-webkit-transform: scale(1);
+}
+100% {
+	-webkit-transform: scale(1.1);
+}
+} @keyframes pulse {
+	0% {
+	transform: scale(1);
+}
+100% {
+	transform: scale(1.1);
+}/* End custom CSS */
